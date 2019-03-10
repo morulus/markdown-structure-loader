@@ -1,0 +1,22 @@
+{
+  "name": "markdown-structure-loader",
+  "version": "0.1.0",
+  "description": "Load markdown document structure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "markdown",
+    "loader",
+    "heading"
+  ],
+  "author": "Morulus <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "remark-parse": "^5.0.0",
+    "unified": "^6.1.6"
+  }
+}

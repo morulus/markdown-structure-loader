@@ -11,7 +11,6 @@ function walkAstForHeadings(ast, tree = [], options = {}) {
   let cascade = [];
   for (let i = 0; i < ast.children.length; i++) {
     if (ast.children[i].type === 'heading' && ast.children[i].children[0]) {
-      console.log(ast.children[i])
       const item = {
         value: options.getAst
           ?ast.children[i].children

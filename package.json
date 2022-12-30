@@ -15,7 +15,7 @@
   "author": "Morulus <vladimirmorulus@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "loader-utils": "^1.1.0",
+    "loader-utils": "^3.2.1",
     "remark-parse": "^5.0.0",
     "unified": "^6.1.6"
   }
